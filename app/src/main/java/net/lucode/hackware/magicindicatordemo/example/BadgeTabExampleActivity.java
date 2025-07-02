@@ -46,6 +46,8 @@ public class BadgeTabExampleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_badge_tab_example_layout);
 
+
+        
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         mViewPager.setAdapter(mExamplePagerAdapter);
 
